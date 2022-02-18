@@ -57,7 +57,7 @@ contract Lottery is VRFConsumerBaseV2 {
     }
 
     function enter() public payable {
-        require(msg.value > .01 ether && block.timestamp < startTime + 30);
+        require(msg.value > .01 ether && block.timestamp < startTime + 1 hours);
         players.push(msg.sender);
     }
 
