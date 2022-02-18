@@ -1,6 +1,7 @@
 # lottery
 
-Lottery contract: 
+Lottery contract:
+
   => Users will join the lottery with 0.1 ether (**Done**)
   
   => There is 1 hour period in which they can participate not after. (**Done**)
